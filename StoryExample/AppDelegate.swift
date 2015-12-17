@@ -17,19 +17,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool
     {
         //Write our story
-        let firstPage = Page(pageText: "You find yourself in a forest.")
-        StoryCore.theStory = Story(startPage: firstPage)
-        StoryCore.currPage = firstPage
+        let page1 = Page(pageText: "You find yourself in a forest.")
+        StoryCore.theStory = Story(startPage: page1)
+        StoryCore.currPage = page1
 
         //create the options for our first page
         let page2 = Page(pageText: "This is page2")
         let page3 = Page(pageText: "This is page3")
         let page4 = Page(pageText: "This is page4")
         let page5 = Page(pageText: "You are squished by a car.")
-        firstPage.addOption(Option(optionText: "Option #1", destinationPage: page2))
-        firstPage.addOption(Option(optionText: "Option #2", destinationPage: page3))
-        firstPage.addOption(Option(optionText: "Option #3", destinationPage: page4))
-        firstPage.addOption(Option(optionText: "Walk to the street.", destinationPage: page5))
+        page1.addOption(Option(optionText: "Option #1", destinationPage: page2))
+        page1.addOption(Option(optionText: "Option #2", destinationPage: page3))
+        page1.addOption(Option(optionText: "Option #3", destinationPage: page4))
+        page1.addOption(Option(optionText: "Walk to the street.", destinationPage: page5))
 
         
         //add options to page 2
@@ -58,7 +58,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         //add options to page 5
         let page15 = Page(pageText: "You lie in the street, your organs spattered across the asphalt. Just as you think you can muster the strength to crawl away, you hear the revving of the car that hit you. In the car is an angry-looking man with a prominent tattoo of his name - Nate. He pauses for a single moment, during which time you desperately hope it will not hurt as much as the previous collision. You are wrong - it hurts more... but nothingness follows soon after.")
-        page5.addOption(Option(optionText: "Get re-in-car-nate-'d!", destinationPage: page15))
+        page5.addOption(Option(optionText: "Get re-in-car-Nate-'d!", destinationPage: page15))
+        
+        //options for page 15
+        page15.addOption(Option(optionText: "You are dead. Reset?", destinationPage: page1))
         
         
         
