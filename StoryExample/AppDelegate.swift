@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  StoryExample
 //
-//  Created by Michael Litman on 12/16/15.
+//  Created by Michael Litman on 12/16/15 for Rosalyn Koscica. 
 //  Copyright © 2015 anna. All rights reserved.
 //
 
@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool
     {
         //Write our story
-        let firstPage = Page(pageText: "The first page text")
+        let firstPage = Page(pageText: "The first page text blahblahblahblah etc etc blahblahblahblahblahblahblah etc etc blahblahblahblahblahblahblah etc etc blahblahblahblahblahblahblah etc etc blahblahblah ")
         StoryCore.theStory = Story(startPage: firstPage)
         StoryCore.currPage = firstPage
 
@@ -31,8 +31,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         firstPage.addOption(Option(optionText: "Option #3", destinationPage: page4))
         firstPage.addOption(Option(optionText: "Option #4", destinationPage: page5))
 
-
-
         
         //add options to page 2
         let page6 = Page(pageText: "This is page6")
@@ -43,7 +41,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         page2.addOption(Option(optionText: "Opt 2", destinationPage: page7))
         page2.addOption(Option(optionText: "to p8", destinationPage: page8))
         page2.addOption(Option(optionText: "to p9", destinationPage: page9))
-
+        
+        //add options to page 3
+        let page10 = Page(pageText: "This is page")
+        let page11 = Page(pageText: "This is pages")
+        page3.addOption(Option(optionText: "Opt #1", destinationPage: page10))
+        page3.addOption(Option(optionText: "Opt 2", destinationPage: page11))
+        
+        //add options to page 4
+        let page12 = Page(pageText: "This is pagee")
+        let page13 = Page(pageText: "This is pager")
+        let page14 = Page(pageText: "This is page9")
+        page4.addOption(Option(optionText: "Opt #1", destinationPage: page12))
+        page4.addOption(Option(optionText: "Opt 2", destinationPage: page13))
+        page4.addOption(Option(optionText: "to p9", destinationPage: page14))
+        
+        //add options to page 5
+        let page15 = Page(pageText: "This is page6")
+        page5.addOption(Option(optionText: "Opt #1", destinationPage: page15))
         
         
         

@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  StoryExample
 //
-//  Created by Michael Litman on 12/16/15.
+//  Created by Michael Litman on 12/16/15 for Rosalyn Koscica.
 //  Copyright © 2015 anna. All rights reserved.
 //
 
@@ -12,7 +12,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 {
 
     @IBOutlet weak var theOptionsTableView: UITableView!
-    @IBOutlet weak var thePageTextLabel: UILabel!
+    @IBOutlet weak var thePageTextLabel: UITextView!
     override func viewDidLoad()
     {
         super.viewDidLoad()

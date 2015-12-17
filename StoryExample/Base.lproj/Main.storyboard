@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -17,17 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cS9-Jo-tl9">
-                                <rect key="frame" x="20" y="57" width="374" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="7py-HF-0nb"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Aut-XV-Enp">
-                                <rect key="frame" x="20" y="107" width="374" height="393"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Aut-XV-Enp">
+                                <rect key="frame" x="20" y="376" width="374" height="340"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" id="KYQ-aA-s95">
@@ -44,22 +36,28 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="ubF-oj-NFb"/>
                                 </connections>
                             </tableView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Woy-HR-LcK">
+                                <rect key="frame" x="20" y="28" width="374" height="323"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="cS9-Jo-tl9" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="5qa-6O-Bgk"/>
-                            <constraint firstItem="cS9-Jo-tl9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="6qS-nb-qjh"/>
-                            <constraint firstItem="Aut-XV-Enp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="67" id="8I5-RD-cRK"/>
-                            <constraint firstItem="Aut-XV-Enp" firstAttribute="top" secondItem="cS9-Jo-tl9" secondAttribute="bottom" constant="30" id="8nk-Ne-VZp"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Aut-XV-Enp" secondAttribute="bottom" constant="235" id="coZ-dz-hIZ"/>
-                            <constraint firstItem="cS9-Jo-tl9" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="37" id="rSJ-NS-oJj"/>
-                            <constraint firstItem="cS9-Jo-tl9" firstAttribute="centerX" secondItem="Aut-XV-Enp" secondAttribute="centerX" id="wil-Ni-kCd"/>
+                            <constraint firstItem="Woy-HR-LcK" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="6c4-BI-OH1"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Aut-XV-Enp" secondAttribute="bottom" constant="20" id="Zlx-fB-JYg"/>
+                            <constraint firstItem="Woy-HR-LcK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="aqa-bT-060"/>
+                            <constraint firstItem="Aut-XV-Enp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="gBd-fo-5PD"/>
+                            <constraint firstItem="Woy-HR-LcK" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="iOZ-Y8-BB5"/>
+                            <constraint firstItem="Aut-XV-Enp" firstAttribute="top" secondItem="Woy-HR-LcK" secondAttribute="bottom" constant="25" id="mU4-NV-W4j"/>
+                            <constraint firstItem="Aut-XV-Enp" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="s6V-8f-ecA"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
                         <outlet property="theOptionsTableView" destination="Aut-XV-Enp" id="WRt-mu-rdM"/>
-                        <outlet property="thePageTextLabel" destination="cS9-Jo-tl9" id="wII-Hc-THa"/>
+                        <outlet property="thePageTextLabel" destination="Woy-HR-LcK" id="3Xx-Jc-Cmh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
