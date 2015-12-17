@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool
     {
         //Write our story
-        let firstPage = Page(pageText: "The first page text blahblahblahblah etc etc blahblahblahblahblahblahblah etc etc blahblahblahblahblahblahblah etc etc blahblahblahblahblahblahblah etc etc blahblahblah ")
+        let firstPage = Page(pageText: "You find yourself in a forest.")
         StoryCore.theStory = Story(startPage: firstPage)
         StoryCore.currPage = firstPage
 
@@ -25,11 +25,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let page2 = Page(pageText: "This is page2")
         let page3 = Page(pageText: "This is page3")
         let page4 = Page(pageText: "This is page4")
-        let page5 = Page(pageText: "This is page5")
+        let page5 = Page(pageText: "You are squished by a car.")
         firstPage.addOption(Option(optionText: "Option #1", destinationPage: page2))
         firstPage.addOption(Option(optionText: "Option #2", destinationPage: page3))
         firstPage.addOption(Option(optionText: "Option #3", destinationPage: page4))
-        firstPage.addOption(Option(optionText: "Option #4", destinationPage: page5))
+        firstPage.addOption(Option(optionText: "Walk to the street.", destinationPage: page5))
 
         
         //add options to page 2
@@ -57,8 +57,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         page4.addOption(Option(optionText: "to p9", destinationPage: page14))
         
         //add options to page 5
-        let page15 = Page(pageText: "This is page6")
-        page5.addOption(Option(optionText: "Opt #1", destinationPage: page15))
+        let page15 = Page(pageText: "You lie in the street, your organs spattered across the asphalt. Just as you think you can muster the strength to crawl away, you hear the revving of the car that hit you. In the car is an angry-looking man with a prominent tattoo of his name - Nate. He pauses for a single moment, during which time you desperately hope it will not hurt as much as the previous collision. You are wrong - it hurts more... but nothingness follows soon after.")
+        page5.addOption(Option(optionText: "Get re-in-car-nate-'d!", destinationPage: page15))
         
         
         
