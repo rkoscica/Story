@@ -37,7 +37,7 @@
                                 </connections>
                             </tableView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Woy-HR-LcK">
-                                <rect key="frame" x="20" y="28" width="374" height="323"/>
+                                <rect key="frame" x="20" y="48" width="374" height="323"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="323" id="7lQ-X1-7ad"/>
                                 </constraints>
@@ -46,14 +46,30 @@
                                 <fontDescription key="fontDescription" name="IowanOldStyle-Roman" family="Iowan Old Style" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="74n-7Y-Jp8">
+                                <rect key="frame" x="368" y="698" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LBO-Bd-6ut">
+                                <rect key="frame" x="35" y="15" width="344" height="35"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="26"/>
+                                <state key="normal" title="Survivor"/>
+                                <connections>
+                                    <action selector="resetPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O83-sv-CMt"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Aut-XV-Enp" secondAttribute="bottom" constant="20" id="02B-KN-gn4"/>
-                            <constraint firstItem="Woy-HR-LcK" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="6c4-BI-OH1"/>
-                            <constraint firstItem="Aut-XV-Enp" firstAttribute="top" secondItem="Woy-HR-LcK" secondAttribute="bottom" constant="25" id="B43-fB-TfV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="LBO-Bd-6ut" secondAttribute="trailing" constant="15" id="1fg-ui-yeg"/>
+                            <constraint firstItem="Woy-HR-LcK" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="28" id="6c4-BI-OH1"/>
+                            <constraint firstItem="Aut-XV-Enp" firstAttribute="top" secondItem="Woy-HR-LcK" secondAttribute="bottom" constant="5" id="B43-fB-TfV"/>
+                            <constraint firstItem="Aut-XV-Enp" firstAttribute="top" secondItem="LBO-Bd-6ut" secondAttribute="bottom" constant="326" id="PRg-u2-eXE"/>
+                            <constraint firstItem="LBO-Bd-6ut" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="15" id="Sdm-qn-MaS"/>
                             <constraint firstItem="Woy-HR-LcK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="aqa-bT-060"/>
                             <constraint firstItem="Aut-XV-Enp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="gBd-fo-5PD"/>
+                            <constraint firstItem="LBO-Bd-6ut" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="15" id="i2V-NS-vjG"/>
                             <constraint firstItem="Woy-HR-LcK" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="iOZ-Y8-BB5"/>
                             <constraint firstItem="Aut-XV-Enp" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="s6V-8f-ecA"/>
                         </constraints>

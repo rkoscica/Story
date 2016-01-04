@@ -21,6 +21,10 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         // Do any additional setup after loading the view, typically from a nib.
     }
 
+    @IBAction func resetPressed(sender: UIButton) {
+        
+    }
+    
     func updatePage()
     {
         self.thePageTextLabel.text = StoryCore.currPage.pageText
