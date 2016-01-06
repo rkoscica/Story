@@ -20,36 +20,36 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     {
 
         //Write our story
-        page1 = Page(pageText: "You wake up on the edge of a forest, unable to remember who you are or how you arrived there. On one side, trees wave gently in the wind. A helpful sign points to a trail that supposedly leads to a stream. On your other side, large trucks zoom down a highway. You are feeling a bit thirsty. What do you do?")
+        page1 = Page(pageText: "You wake up on the edge of a forest, unable to remember who you are or how you arrived there. Your pocket is empty save for a small multi-tool. On one side, trees wave gently in the wind. A helpful sign points to a trail that allegedly leads to a stream. On your other side, large trucks zoom down a highway. You are feeling a bit thirsty. What do you do?")
         StoryCore.theStory = Story(startPage: page1)
         StoryCore.currPage = page1
 
         //create the options for our first page
-        let page2 = Page(pageText: "After what seems like hours of exhausting hiking over several hills, a faint trickling sound reaches your ears. You hurry forward, eager to find it, as you are even thirstier than before. Suddenly, the trees part. The stream is small, but the water looks clear and feels blissfully cool when you dip your fingers in.")
-        let page3 = Page(pageText: "This is page3")
+        let page2 = Page(pageText: "After what seems like hours of exhausting hiking over several hills, a faint trickling sound reaches your ears. You hurry forward, eager to find it, as you are even thirstier than before. Suddenly, the trees part. The current is fast, but the water looks clear and feels blissfully cool when you dip your fingers in.")
+        let page3 = Page(pageText: "You close your eyes, spin in a circle three times, and start walking. Unfortunately, you trip over a rock and slam face-first into a tree trunk. Now, you have a broken ankle and a deep gash on your forehead. You can feel the warm, sticky blood slowly trickling down your face.")
         let page4 = Page(pageText: "This is page4")
         let page5 = Page(pageText: "You are squished by a car.")
         page1.addOption(Option(optionText: "Search for the stream.", destinationPage: page2))
-        page1.addOption(Option(optionText: "Option #2", destinationPage: page3))
-        page1.addOption(Option(optionText: "Option #3", destinationPage: page4))
+        page1.addOption(Option(optionText: "Walk in a random direction.", destinationPage: page3))
+        page1.addOption(Option(optionText: "Take a nap.", destinationPage: page4))
         page1.addOption(Option(optionText: "Cross the street.", destinationPage: page5))
 
         
         //add options to page 2
-        let page6 = Page(pageText: "The water is cool and refreshing. You drink as much as you can, but you soon notice that you are also hungry. You glance upward and spot a small cluster of spotted red mushrooms. The vibrant red colors seem a bit suspicious, but you've survived worse... right? Besides, you remember reading that some harmless plants use toxic-looking colors to scare away predators. It could be the same for fungi; the mushroom is probably harmless.")
+        let page6 = Page(pageText: "The water is cool and refreshing. You drink as much as you can, but you soon notice that you are also hungry. You glance upward and spot a small cluster of spotted red mushrooms. The vibrant red colors seem a bit suspicious, but you've survived worse... right? Besides, you remember reading that some harmless plants use toxic-looking colors to scare away predators. It could be the same for fungi; the mushroom is probably edible.")
         let page7 = Page(pageText: "This is page7")
         let page8 = Page(pageText: "This is page8")
         let page9 = Page(pageText: "This is page9")
         page2.addOption(Option(optionText: "Drink some water.", destinationPage: page6))
-        page2.addOption(Option(optionText: "Opt 2", destinationPage: page7))
-        page2.addOption(Option(optionText: "to p8", destinationPage: page8))
-        page2.addOption(Option(optionText: "to p9", destinationPage: page9))
+        page2.addOption(Option(optionText: "Go swimming.", destinationPage: page7))
+        page2.addOption(Option(optionText: "Walk a bit more.", destinationPage: page8))
+        page2.addOption(Option(optionText: "Poke around the riverbank.", destinationPage: page9))
         
         //add options to page 3
         let page10 = Page(pageText: "This is page")
         let page11 = Page(pageText: "This is pages")
-        page3.addOption(Option(optionText: "Opt #1", destinationPage: page10))
-        page3.addOption(Option(optionText: "Opt 2", destinationPage: page11))
+        page3.addOption(Option(optionText: "Try to stop the bleeding.", destinationPage: page10))
+        page3.addOption(Option(optionText: "Start screaming in pain.", destinationPage: page11))
         
         //add options to page 4
         let page12 = Page(pageText: "This is pagee")
@@ -65,15 +65,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         //p6
         let page16 = Page(pageText: "You throw caution to the wind and take a big bite. It is surprisingly tasty, and you don't feel sick at all. You hungrily pick the rest of the mushrooms and consume them.")
-        let page17 = Page(pageText: "This is page8")
+        let page17 = Page(pageText: "You poke around the riverbank a bit, hungrily gathering a few plants together. One of them stings your hand when you touch it, so you smartly decide not to eat it. However, the others slightly resemble a tossed salad without any dressing. Your stomach grumbles again, telling you to hurry up and consume food.")
         let page18 = Page(pageText: "This is page9")
         page6.addOption(Option(optionText: "Eat the mushrooms.", destinationPage: page16))
         page6.addOption(Option(optionText: "Find something else.", destinationPage: page17))
-        page6.addOption(Option(optionText: "to p8", destinationPage: page18))
+        page6.addOption(Option(optionText: "Drink more water.", destinationPage: page18))
         
         //options for page 15
         page15.addOption(Option(optionText: "You are dead. Reset?", destinationPage: page1))
         
+        //17
+        let page19 = Page(pageText: "")
+        let page20 = Page(pageText: "A wave of disgust sweeps through you, threatening to make you vomit. You chuck the handful of plants as far away as possible. There's no way you would ever eat vegetables, even if your life depended upon it! Besides, you remember hearing that humans can survive around three weeks without food. That's plenty of time to find something better to eat.")
+        let page21 = Page(pageText: "")
+        page17.addOption(Option(optionText: "Eat the 'salad'.", destinationPage: page19))
+        page17.addOption(Option(optionText: "Eww, vegetables.", destinationPage: page20))
+        page17.addOption(Option(optionText: "Look for meat.", destinationPage: page21))
         
         // Override point for customization after application launch.
         return true
