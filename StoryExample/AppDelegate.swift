@@ -28,7 +28,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let page2 = Page(pageText: "After what seems like hours of exhausting hiking over several hills, a faint trickling sound reaches your ears. You hurry forward, eager to find it, as you are even thirstier than before. Suddenly, the trees part. The current is fast, but the water looks clear and feels blissfully cool when you dip your fingers in.")
         let page3 = Page(pageText: "You close your eyes, spin in a circle three times, and start walking. Unfortunately, you trip over a rock and slam face-first into a tree trunk. Now, you have a broken ankle and a deep gash on your forehead. You can feel the warm, sticky blood slowly trickling down your face.")
         let page4 = Page(pageText: "This is page4")
-        let page5 = Page(pageText: "You are squished by a car.")
+        let page5 = Page(pageText: "You eagerly step into the street, forgetting to check for incoming vehicles. Not two steps into the street, an incredibly shiny sports car slams into you. As you slide off the hood, you oddly find yourself saddened by the way your blood is staining the car's otherwise perfect paint... then your broken ribs register, and you start screaming.")
         page1.addOption(Option(optionText: "Search for the stream.", destinationPage: page2))
         page1.addOption(Option(optionText: "Walk in a random direction.", destinationPage: page3))
         page1.addOption(Option(optionText: "Take a nap.", destinationPage: page4))
@@ -60,7 +60,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         page4.addOption(Option(optionText: "to p9", destinationPage: page14))
         
         //add options to page 5
-        let page15 = Page(pageText: "You lie in the street, your organs spattered across the asphalt. Just as you think you can muster the strength to crawl away, you hear the revving of the car that hit you. In the car is an angry-looking man with a prominent tattoo of his name - Nate. He pauses for a single moment, during which time you desperately hope it will not hurt as much as the previous collision. You are wrong - it hurts more... but nothingness follows soon after.")
+        let page15 = Page(pageText: "You lie in the street, your organs spattered across the asphalt. Just as you think you can muster the strength to crawl away, you hear the revving of the sports car that hit you. In the car is an angry-looking man with a prominent tattoo of his name - Nate. He pauses for a single moment, during which time you desperately hope it will not hurt as much as the previous collision. You are wrong - it hurts more... but nothingness follows soon after.")
         page5.addOption(Option(optionText: "Get re-in-car-Nate-'d!", destinationPage: page15))
         
         //p6
