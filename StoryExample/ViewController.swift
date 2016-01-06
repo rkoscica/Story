@@ -2,11 +2,12 @@
 //  ViewController.swift
 //  StoryExample
 //
-//  Created by Michael Litman on 12/16/15 for Rosalyn Koscica.
+//  Created by Michael Litman on 12/16/15.
 //  Copyright © 2015 anna. All rights reserved.
 //
 
 import UIKit
+
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate
 {
@@ -22,7 +23,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
 
     @IBAction func resetPressed(sender: UIButton) {
-        
+        StoryCore.currPage = page1
+        updatePage()
     }
     
     func updatePage()

@@ -2,11 +2,13 @@
 //  AppDelegate.swift
 //  StoryExample
 //
-//  Created by Michael Litman on 12/16/15 for Rosalyn Koscica. 
+//  Created by Michael Litman on 12/16/15. 
 //  Copyright © 2015 anna. All rights reserved.
 //
 
 import UIKit
+
+var page1 = Page(pageText: "")
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,8 +18,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool
     {
+
         //Write our story
-        let page1 = Page(pageText: "You wake up on the edge of a forest, unable to remember who you are or how you arrived there. On one side, trees wave gently in the wind. A helpful sign points to a trail that supposedly leads to a stream. On your other side, large trucks zoom down a highway. You are feeling a bit thirsty. What do you do?")
+        page1 = Page(pageText: "You wake up on the edge of a forest, unable to remember who you are or how you arrived there. On one side, trees wave gently in the wind. A helpful sign points to a trail that supposedly leads to a stream. On your other side, large trucks zoom down a highway. You are feeling a bit thirsty. What do you do?")
         StoryCore.theStory = Story(startPage: page1)
         StoryCore.currPage = page1
 
@@ -70,8 +73,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         //options for page 15
         page15.addOption(Option(optionText: "You are dead. Reset?", destinationPage: page1))
-        
-        
         
         
         // Override point for customization after application launch.
