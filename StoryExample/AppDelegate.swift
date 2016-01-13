@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  StoryExample
 //
-//  Created by Michael Litman on 12/16/15. 
-//  Copyright © 2015 anna. All rights reserved.
+//  Created by RK on 12/16/15. 
+//  Copyright © 2015 RK. All rights reserved.
 //
 
 import UIKit
@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     {
 
         //Write our story
-        page1 = Page(pageText: "You wake up on the edge of a forest, unable to remember who you are or how you arrived there. Your pocket is empty save for a small multi-tool. On one side, trees wave gently in the wind. A helpful sign points to a trail that allegedly leads to a stream. On your other side, large trucks zoom down a highway. You are feeling a bit thirsty. What do you do?")
+        page1 = Page(pageText: "You wake up on the edge of a forest, unable to remember who you are or how you arrived there. Your pocket is empty save for a small multi-tool. On one side, trees wave gently in the wind. A helpful sign points to a trail that allegedly leads to a stream. On your other side, large vehicles zoom down a highway. You are feeling a bit thirsty. What do you do?")
         StoryCore.theStory = Story(startPage: page1)
         StoryCore.currPage = page1
 
@@ -32,7 +32,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         page2.addOption(Option(optionText: "Drink some water.", destinationPage: page6))
         page2.addOption(Option(optionText: "Go swimming.", destinationPage: page7))
         page2.addOption(Option(optionText: "Walk a bit more.", destinationPage: page8))
-        page2.addOption(Option(optionText: "Poke around the riverbank.", destinationPage: page9))
+        page2.addOption(Option(optionText: "Poke around the riverbank.", destinationPage: page17))
 
         page3.addOption(Option(optionText: "Try to stop the bleeding.", destinationPage: page10))
         page3.addOption(Option(optionText: "Start screaming in pain.", destinationPage: page11))

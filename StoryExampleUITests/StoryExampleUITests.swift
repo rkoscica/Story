@@ -2,8 +2,8 @@
 //  StoryExampleUITests.swift
 //  StoryExampleUITests
 //
-//  Created by Michael Litman on 12/16/15.
-//  Copyright © 2015 anna. All rights reserved.
+//  Created by RK on 12/16/15.
+//  Copyright © 2015 RK. All rights reserved.
 //
 
 import XCTest
