@@ -19,6 +19,7 @@
 		B81013651C22005C003238EB /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81013641C22005C003238EB /* Option.swift */; };
 		B81013671C2201EA003238EB /* StoryCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81013661C2201EA003238EB /* StoryCore.swift */; };
 		B81013691C220528003238EB /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81013681C220528003238EB /* TableViewController.swift */; };
+		D1397EEE1C46B839008A0B24 /* storytext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1397EED1C46B839008A0B24 /* storytext.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		B81013641C22005C003238EB /* Option.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Option.swift; sourceTree = "<group>"; };
 		B81013661C2201EA003238EB /* StoryCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryCore.swift; sourceTree = "<group>"; };
 		B81013681C220528003238EB /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		D1397EED1C46B839008A0B24 /* storytext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = storytext.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		B81013311C21FFE8003238EB /* StoryExample */ = {
 			isa = PBXGroup;
 			children = (
+				D1397EED1C46B839008A0B24 /* storytext.swift */,
 				B81013321C21FFE8003238EB /* AppDelegate.swift */,
 				B81013341C21FFE8003238EB /* ViewController.swift */,
 				B81013361C21FFE8003238EB /* Main.storyboard */,
@@ -271,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1397EEE1C46B839008A0B24 /* storytext.swift in Sources */,
 				B81013671C2201EA003238EB /* StoryCore.swift in Sources */,
 				B81013691C220528003238EB /* TableViewController.swift in Sources */,
 				B81013351C21FFE8003238EB /* ViewController.swift in Sources */,
