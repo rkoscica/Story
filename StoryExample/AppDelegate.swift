@@ -47,23 +47,32 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         page6.addOption(Option(optionText: "Find something else.", destinationPage: page17))
         page6.addOption(Option(optionText: "Drink more water.", destinationPage: page18))
         
+        page12.addOption(Option(optionText: "You are dead. Respawn?", destinationPage: page1))
+        
         page13.addOption(Option(optionText: "Search for the stream.", destinationPage: page2))
+        page13.addOption(Option(optionText: "Cross the street.", destinationPage: page5))
         page13.addOption(Option(optionText: "Wave down a car.", destinationPage: page22))
         
         page14.addOption(Option(optionText: "Go towards the car.", destinationPage: page21))
         page14.addOption(Option(optionText: "Run the other direction.", destinationPage: page23))
 
-        page15.addOption(Option(optionText: "You are dead. Reset?", destinationPage: page1))
+        page15.addOption(Option(optionText: "You are dead. Respawn?", destinationPage: page1))
         
         page17.addOption(Option(optionText: "Eat the 'salad'.", destinationPage: page19))
         page17.addOption(Option(optionText: "Eww, vegetables.", destinationPage: page20))
-        page17.addOption(Option(optionText: "Look for meat.", destinationPage: page9))
+        page17.addOption(Option(optionText: "Look for protein.", destinationPage: page9))
+        
+        page20.addOption(Option(optionText: "Look for pizza.", destinationPage: page28))
+        page20.addOption(Option(optionText: "Eww, bugs! Eww, nature!", destinationPage: page29))
+        page20.addOption(Option(optionText: "Go hunting for meat.", destinationPage: page30))
         
         page21.addOption(Option(optionText: "See if the driver is ok.", destinationPage: page24))
         page21.addOption(Option(optionText: "Steal the cash and run.", destinationPage: page25))
         
         page22.addOption(Option(optionText: "Hop into the car.", destinationPage: page26))
         page22.addOption(Option(optionText: "Wait for someone else.", destinationPage: page27))
+        
+        page101.addOption(Option(optionText: "The end. Play again?", destinationPage: page1))
         
         // Override point for customization after application launch.
         return true
