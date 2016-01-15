@@ -62,6 +62,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         page21.addOption(Option(optionText: "See if the driver is ok.", destinationPage: page24))
         page21.addOption(Option(optionText: "Steal the cash and run.", destinationPage: page25))
         
+        page22.addOption(Option(optionText: "Hop into the car.", destinationPage: page26))
+        page22.addOption(Option(optionText: "Wait for someone else.", destinationPage: page27))
+        
         // Override point for customization after application launch.
         return true
     }
