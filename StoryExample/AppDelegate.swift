@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     {
 
         //Write our story
-        page1 = Page(pageText: "You wake up on the edge of a forest, unable to remember who you are or how you arrived there. Your pocket is empty save for a small multi-tool. On one side, trees wave gently in the wind. A helpful sign points to a trail that allegedly leads to a stream. On your other side, large vehicles zoom down a highway. You are feeling a bit thirsty. What do you do?")
+        page1 = Page(pageText: "You wake up on the edge of a forest, unable to remember who you are or how you arrived there. Your pocket is empty. On one side, trees wave gently in the wind. A helpful sign points to a trail that allegedly leads to a stream. On your other side, large vehicles zoom down a highway. You are feeling a bit thirsty. What do you do?")
         StoryCore.theStory = Story(startPage: page1)
         StoryCore.currPage = page1
 
@@ -47,6 +47,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         page6.addOption(Option(optionText: "Find something else.", destinationPage: page17))
         page6.addOption(Option(optionText: "Drink more water.", destinationPage: page18))
         
+        page7.addOption(Option(optionText: "Pluck them off.", destinationPage: page41))
+        page7.addOption(Option(optionText: "Ignore them. Find shelter.", destinationPage: page34))
+        
+        page8.addOption(Option(optionText: "Find somewhere to rest.", destinationPage: page34))
+        
+        page11.addOption(Option(optionText: "You are dead. Respawn?", destinationPage: page1))
+        
         page12.addOption(Option(optionText: "You are dead. Respawn?", destinationPage: page1))
         
         page13.addOption(Option(optionText: "Search for the stream.", destinationPage: page2))
@@ -58,9 +65,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         page15.addOption(Option(optionText: "You are dead. Respawn?", destinationPage: page1))
         
+        page16.addOption(Option(optionText: "Take a *yawn* short nap.", destinationPage: page38))
+        
         page17.addOption(Option(optionText: "Eat the 'salad'.", destinationPage: page19))
         page17.addOption(Option(optionText: "Eww, vegetables.", destinationPage: page20))
         page17.addOption(Option(optionText: "Look for protein.", destinationPage: page9))
+        
+        page18.addOption(Option(optionText: "Take a *yawn* short nap.", destinationPage: page38))
+        
+        page19.addOption(Option(optionText: "Make a campfire.", destinationPage: page33))
+        page19.addOption(Option(optionText: "Search for shelter.", destinationPage: page34))
         
         page20.addOption(Option(optionText: "Look for pizza.", destinationPage: page28))
         page20.addOption(Option(optionText: "Eww, bugs! Eww, nature!", destinationPage: page29))
@@ -71,6 +85,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         page22.addOption(Option(optionText: "Hop into the car.", destinationPage: page26))
         page22.addOption(Option(optionText: "Wait for someone else.", destinationPage: page27))
+        
+        page24.addOption(Option(optionText: "Bind the person's wounds.", destinationPage: page31))
+        page24.addOption(Option(optionText: "Hop in the car and drive off.", destinationPage: page32))
+        
+        page32.addOption(Option(optionText: "Press the left pedal.", destinationPage: page36))
+        page32.addOption(Option(optionText: "Step on the right pedal.", destinationPage: page35))
+        page32.addOption(Option(optionText: "Push the stick between the seats.", destinationPage: page37))
+        
+        page34.addOption(Option(optionText: "Build a campfire.", destinationPage: page33))
+        page34.addOption(Option(optionText: "Go straight to sleep.", destinationPage: page42))
+        
+        page38.addOption(Option(optionText: "Vomit.", destinationPage: page39))
+        page38.addOption(Option(optionText: "Keep it in.", destinationPage: page40))
+        
+        page40.addOption(Option(optionText: "You are dead. Respawn?", destinationPage: page1))
+        
+        page42.addOption(Option(optionText: "You are dead. Respawn?", destinationPage: page1))
         
         page101.addOption(Option(optionText: "The end. Play again?", destinationPage: page1))
         
