@@ -289,7 +289,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         page91.addOption(Option(optionText: "Those wolves... Retry?", destinationPage: page1))
         
-        page92.addOption(Option(optionText: "You died painfully. Reset?", destinationPage: page1))
+        page92.addOption(Option(optionText: "You died. It hurt. Reset?", destinationPage: page1))
         
         page93.addOption(Option(optionText: "Wave to the rescue party.", destinationPage: page96))
         page93.addOption(Option(optionText: "Grab the crossbow. Shoot them.", destinationPage: page97))
