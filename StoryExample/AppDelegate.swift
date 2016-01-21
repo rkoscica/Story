@@ -193,7 +193,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         page56.addOption(Option(optionText: "Murder most foul. Retry?", destinationPage: page1))
         
-        page57.addOption(Option(optionText: "Burnt to a crisp. Respawn?", destinationPage: page1))
+        page57.addOption(Option(optionText: "Human torch. Respawn?", destinationPage: page1))
         
         page58.addOption(Option(optionText: "Devoured by wolves. Retry?", destinationPage: page1))
         
