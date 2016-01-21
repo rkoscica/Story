@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     {
 
         //Write our story
-        page1 = Page(pageText: "You wake up on the edge of a forest, unable to remember who you are or how you arrived there. Your pocket is empty. On one side, trees wave gently in the wind. A helpful sign points to a trail that allegedly leads to a stream. On your other side, large vehicles zoom down a highway. You are feeling a bit thirsty. What do you do?")
+        page1 = Page(pageText: "You wake up on the edge of a forest, unable to remember who you are or how you arrived there. Your pocket is empty save for a small plastic card with a seven-digit number written on it. On one side, trees wave gently in the wind. A helpful sign points to a trail that allegedly leads to a stream. On your other side, large vehicles zoom down a highway. You are feeling a bit thirsty. What do you do?")
         StoryCore.theStory = Story(startPage: page1)
         StoryCore.currPage = page1
 
@@ -202,7 +202,114 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         page60.addOption(Option(optionText: "You are toast. Restart?", destinationPage: page1))
         
-        page101.addOption(Option(optionText: "The end. Play again?", destinationPage: page1))
+        page61.addOption(Option(optionText: "Ah, forget it. Scratch!", destinationPage: page65))
+        page61.addOption(Option(optionText: "Find some soothing plants.", destinationPage: page66))
+        page61.addOption(Option(optionText: "Run in circles screaming.", destinationPage: page67))
+        
+        page62.addOption(Option(optionText: "Put pine branches on the fire.", destinationPage: page68))
+        page62.addOption(Option(optionText: "Put dry leaves on the fire.", destinationPage: page69))
+        page62.addOption(Option(optionText: "Go foraging for food.", destinationPage: page70))
+        
+        page63.addOption(Option(optionText: "That's one hard rock. Reset?", destinationPage: page1))
+        
+        page64.addOption(Option(optionText: "Money is not edible. Respawn?", destinationPage: page1))
+        
+        page65.addOption(Option(optionText: "Skin is necessary. Reset?", destinationPage: page1))
+        
+        page66.addOption(Option(optionText: "Rub grass on the bites.", destinationPage: page71))
+        page66.addOption(Option(optionText: "Smear them with berries.", destinationPage: page72))
+        page66.addOption(Option(optionText: "Try the three-leaved vine.", destinationPage: page73))
+        page66.addOption(Option(optionText: "Use the shrub's leaves.", destinationPage: page74))
+        
+        page67.addOption(Option(optionText: "Wolf chew toy. Respawn?", destinationPage: page1))
+        
+        page68.addOption(Option(optionText: "Make lots of noise.", destinationPage: page75))
+        page68.addOption(Option(optionText: "Go searching for people.", destinationPage: page76))
+        
+        page69.addOption(Option(optionText: "Put pine branches on the fire.", destinationPage: page68))
+        page69.addOption(Option(optionText: "Go foraging for food.", destinationPage: page70))
+        
+        page70.addOption(Option(optionText: "Eat the berries.", destinationPage: page80))
+        
+        page71.addOption(Option(optionText: "You died. Reset?", destinationPage: page1))
+        
+        page72.addOption(Option(optionText: "Poison berries. Respawn?", destinationPage: page1))
+        
+        page73.addOption(Option(optionText: "Asphyxiation. Retry?", destinationPage: page1))
+        
+        page74.addOption(Option(optionText: "Pine needles and branches.", destinationPage: page68))
+        page74.addOption(Option(optionText: "Lots of dry leaves.", destinationPage: page69))
+        
+        page75.addOption(Option(optionText: "Screaming => dying. Respawn?", destinationPage: page1))
+        
+        page76.addOption(Option(optionText: "Run towards them!", destinationPage: page77))
+        page76.addOption(Option(optionText: "Ignore them.", destinationPage: page78))
+        page76.addOption(Option(optionText: "Run the opposite direction.", destinationPage: page79))
+        
+        page77.addOption(Option(optionText: "Politely ask for help.", destinationPage: page81))
+        page77.addOption(Option(optionText: "Grab a stick and attack.", destinationPage: page82))
+        
+        page78.addOption(Option(optionText: "Search for food.", destinationPage: page70))
+        page78.addOption(Option(optionText: "Return to the river", destinationPage: page2))
+        
+        page79.addOption(Option(optionText: "Go toward the water noises.", destinationPage: page2))
+        
+        page80.addOption(Option(optionText: "Don't eat the berries. Reset?", destinationPage: page1))
+
+        page81.addOption(Option(optionText: "Thank them and go back.", destinationPage: page84))
+        page81.addOption(Option(optionText: "Show them the card.", destinationPage: page83))
+        page81.addOption(Option(optionText: "Grab a stick and attack.", destinationPage: page82))
+        
+        page82.addOption(Option(optionText: "You are dead. Retry?", destinationPage: page1))
+        
+        page83.addOption(Option(optionText: "Wait in silence.", destinationPage: page88))
+        page83.addOption(Option(optionText: "Chat while you wait.", destinationPage: page89))
+        page83.addOption(Option(optionText: "Return to your campsite.", destinationPage: page84))
+        page83.addOption(Option(optionText: "Try to pickpocket them.", destinationPage: page90))
+        
+        page84.addOption(Option(optionText: "Attack the wolves.", destinationPage: page85))
+        page84.addOption(Option(optionText: "Try to scare them away.", destinationPage: page86))
+        page84.addOption(Option(optionText: "Run back towards the people.", destinationPage: page87))
+        
+        page85.addOption(Option(optionText: "Killed by wolves. Respawn?", destinationPage: page1))
+        
+        page86.addOption(Option(optionText: "You died painfully. Reset?", destinationPage: page1))
+        
+        page87.addOption(Option(optionText: "You are dead. Retry?", destinationPage: page1))
+        
+        page88.addOption(Option(optionText: "Wait for help alone.", destinationPage: page91))
+        page88.addOption(Option(optionText: "Go back to your campsite.", destinationPage: page84))
+        
+        page89.addOption(Option(optionText: "Lead them to your campsite.", destinationPage: page92))
+        page89.addOption(Option(optionText: "Keep chatting.", destinationPage: page94))
+        page89.addOption(Option(optionText: "You're hungry. Ask for food.", destinationPage: page95))
+        page89.addOption(Option(optionText: "What's that in the distance?", destinationPage: page93))
+        
+        page90.addOption(Option(optionText: "Dead thief. Retry?", destinationPage: page1))
+        
+        page91.addOption(Option(optionText: "Those wolves... Retry?", destinationPage: page1))
+        
+        page92.addOption(Option(optionText: "You died painfully. Reset?", destinationPage: page1))
+        
+        page93.addOption(Option(optionText: "Wave to the rescue party.", destinationPage: page96))
+        page93.addOption(Option(optionText: "Grab the crossbow. Shoot them.", destinationPage: page97))
+        page93.addOption(Option(optionText: "Run the other direction.", destinationPage: page98))
+        
+        page94.addOption(Option(optionText: "You are dead. Respawn?", destinationPage: page1))
+        
+        page95.addOption(Option(optionText: "You are dead. Reset?", destinationPage: page1))
+        
+        page96.addOption(Option(optionText: "Greet the rescue party", destinationPage: page99))
+        
+        page97.addOption(Option(optionText: "You are dead. Retry?", destinationPage: page1))
+        
+        page98.addOption(Option(optionText: "Those rocks... Retry?", destinationPage: page1))
+        
+        page99.addOption(Option(optionText: "Yay! Rescued! :)", destinationPage: page1))
+        
+        page100.addOption(Option(optionText: "The end. Play again?", destinationPage: page1))
+        
+        
         
         // Override point for customization after application launch.
         return true
