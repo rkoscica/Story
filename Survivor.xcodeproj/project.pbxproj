@@ -10,7 +10,6 @@
 		B81013331C21FFE8003238EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81013321C21FFE8003238EB /* AppDelegate.swift */; };
 		B81013351C21FFE8003238EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81013341C21FFE8003238EB /* ViewController.swift */; };
 		B81013381C21FFE8003238EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B81013361C21FFE8003238EB /* Main.storyboard */; };
-		B810133A1C21FFE8003238EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B81013391C21FFE8003238EB /* Assets.xcassets */; };
 		B810133D1C21FFE8003238EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B810133B1C21FFE8003238EB /* LaunchScreen.storyboard */; };
 		B81013481C21FFE8003238EB /* StoryExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81013471C21FFE8003238EB /* StoryExampleTests.swift */; };
 		B81013531C21FFE8003238EB /* StoryExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81013521C21FFE8003238EB /* StoryExampleUITests.swift */; };
@@ -19,6 +18,7 @@
 		B81013651C22005C003238EB /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81013641C22005C003238EB /* Option.swift */; };
 		B81013671C2201EA003238EB /* StoryCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81013661C2201EA003238EB /* StoryCore.swift */; };
 		B81013691C220528003238EB /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81013681C220528003238EB /* TableViewController.swift */; };
+		D11B29F71C52D5C700FEE30D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B81013391C21FFE8003238EB /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
 		D1397EEE1C46B839008A0B24 /* storytext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1397EED1C46B839008A0B24 /* storytext.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
@@ -40,17 +40,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B810132F1C21FFE8003238EB /* StoryExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B810132F1C21FFE8003238EB /* Survivor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Survivor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B81013321C21FFE8003238EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B81013341C21FFE8003238EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B81013371C21FFE8003238EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B81013391C21FFE8003238EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B810133C1C21FFE8003238EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B810133E1C21FFE8003238EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B81013431C21FFE8003238EB /* StoryExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoryExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B81013431C21FFE8003238EB /* Survivor.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Survivor.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B81013471C21FFE8003238EB /* StoryExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryExampleTests.swift; sourceTree = "<group>"; };
 		B81013491C21FFE8003238EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B810134E1C21FFE8003238EB /* StoryExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoryExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B810134E1C21FFE8003238EB /* Survivor.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Survivor.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B81013521C21FFE8003238EB /* StoryExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryExampleUITests.swift; sourceTree = "<group>"; };
 		B81013541C21FFE8003238EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B81013601C220034003238EB /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
@@ -99,9 +99,9 @@
 		B81013301C21FFE8003238EB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B810132F1C21FFE8003238EB /* StoryExample.app */,
-				B81013431C21FFE8003238EB /* StoryExampleTests.xctest */,
-				B810134E1C21FFE8003238EB /* StoryExampleUITests.xctest */,
+				B810132F1C21FFE8003238EB /* Survivor.app */,
+				B81013431C21FFE8003238EB /* Survivor.xctest */,
+				B810134E1C21FFE8003238EB /* Survivor.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -146,9 +146,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B810132E1C21FFE8003238EB /* StoryExample */ = {
+		B810132E1C21FFE8003238EB /* Survivor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B81013571C21FFE8003238EB /* Build configuration list for PBXNativeTarget "StoryExample" */;
+			buildConfigurationList = B81013571C21FFE8003238EB /* Build configuration list for PBXNativeTarget "Survivor" */;
 			buildPhases = (
 				B810132B1C21FFE8003238EB /* Sources */,
 				B810132C1C21FFE8003238EB /* Frameworks */,
@@ -158,14 +158,14 @@
 			);
 			dependencies = (
 			);
-			name = StoryExample;
+			name = Survivor;
 			productName = StoryExample;
-			productReference = B810132F1C21FFE8003238EB /* StoryExample.app */;
+			productReference = B810132F1C21FFE8003238EB /* Survivor.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B81013421C21FFE8003238EB /* StoryExampleTests */ = {
+		B81013421C21FFE8003238EB /* SurvivorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B810135A1C21FFE8003238EB /* Build configuration list for PBXNativeTarget "StoryExampleTests" */;
+			buildConfigurationList = B810135A1C21FFE8003238EB /* Build configuration list for PBXNativeTarget "SurvivorTests" */;
 			buildPhases = (
 				B810133F1C21FFE8003238EB /* Sources */,
 				B81013401C21FFE8003238EB /* Frameworks */,
@@ -176,14 +176,14 @@
 			dependencies = (
 				B81013451C21FFE8003238EB /* PBXTargetDependency */,
 			);
-			name = StoryExampleTests;
+			name = SurvivorTests;
 			productName = StoryExampleTests;
-			productReference = B81013431C21FFE8003238EB /* StoryExampleTests.xctest */;
+			productReference = B81013431C21FFE8003238EB /* Survivor.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B810134D1C21FFE8003238EB /* StoryExampleUITests */ = {
+		B810134D1C21FFE8003238EB /* SurvivorUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B810135D1C21FFE8003238EB /* Build configuration list for PBXNativeTarget "StoryExampleUITests" */;
+			buildConfigurationList = B810135D1C21FFE8003238EB /* Build configuration list for PBXNativeTarget "SurvivorUITests" */;
 			buildPhases = (
 				B810134A1C21FFE8003238EB /* Sources */,
 				B810134B1C21FFE8003238EB /* Frameworks */,
@@ -194,9 +194,9 @@
 			dependencies = (
 				B81013501C21FFE8003238EB /* PBXTargetDependency */,
 			);
-			name = StoryExampleUITests;
+			name = SurvivorUITests;
 			productName = StoryExampleUITests;
-			productReference = B810134E1C21FFE8003238EB /* StoryExampleUITests.xctest */;
+			productReference = B810134E1C21FFE8003238EB /* Survivor.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -222,7 +222,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B810132A1C21FFE8003238EB /* Build configuration list for PBXProject "StoryExample" */;
+			buildConfigurationList = B810132A1C21FFE8003238EB /* Build configuration list for PBXProject "Survivor" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -235,9 +235,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B810132E1C21FFE8003238EB /* StoryExample */,
-				B81013421C21FFE8003238EB /* StoryExampleTests */,
-				B810134D1C21FFE8003238EB /* StoryExampleUITests */,
+				B810132E1C21FFE8003238EB /* Survivor */,
+				B81013421C21FFE8003238EB /* SurvivorTests */,
+				B810134D1C21FFE8003238EB /* SurvivorUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -248,7 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B810133D1C21FFE8003238EB /* LaunchScreen.storyboard in Resources */,
-				B810133A1C21FFE8003238EB /* Assets.xcassets in Resources */,
+				D11B29F71C52D5C700FEE30D /* Assets.xcassets in Resources */,
 				B81013381C21FFE8003238EB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,12 +306,12 @@
 /* Begin PBXTargetDependency section */
 		B81013451C21FFE8003238EB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B810132E1C21FFE8003238EB /* StoryExample */;
+			target = B810132E1C21FFE8003238EB /* Survivor */;
 			targetProxy = B81013441C21FFE8003238EB /* PBXContainerItemProxy */;
 		};
 		B81013501C21FFE8003238EB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B810132E1C21FFE8003238EB /* StoryExample */;
+			target = B810132E1C21FFE8003238EB /* Survivor */;
 			targetProxy = B810134F1C21FFE8003238EB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -428,7 +428,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.anna.StoryExample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Survivor;
 			};
 			name = Debug;
 		};
@@ -441,7 +441,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.anna.StoryExample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Survivor;
 			};
 			name = Release;
 		};
@@ -452,8 +452,8 @@
 				INFOPLIST_FILE = StoryExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.anna.StoryExampleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StoryExample.app/StoryExample";
+				PRODUCT_NAME = Survivor;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Survivor.app/Survivor";
 			};
 			name = Debug;
 		};
@@ -464,8 +464,8 @@
 				INFOPLIST_FILE = StoryExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.anna.StoryExampleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StoryExample.app/StoryExample";
+				PRODUCT_NAME = Survivor;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Survivor.app/Survivor";
 			};
 			name = Release;
 		};
@@ -475,7 +475,7 @@
 				INFOPLIST_FILE = StoryExampleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.anna.StoryExampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Survivor;
 				TEST_TARGET_NAME = StoryExample;
 				USES_XCTRUNNER = YES;
 			};
@@ -487,7 +487,7 @@
 				INFOPLIST_FILE = StoryExampleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.anna.StoryExampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Survivor;
 				TEST_TARGET_NAME = StoryExample;
 				USES_XCTRUNNER = YES;
 			};
@@ -496,7 +496,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B810132A1C21FFE8003238EB /* Build configuration list for PBXProject "StoryExample" */ = {
+		B810132A1C21FFE8003238EB /* Build configuration list for PBXProject "Survivor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B81013551C21FFE8003238EB /* Debug */,
@@ -505,7 +505,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B81013571C21FFE8003238EB /* Build configuration list for PBXNativeTarget "StoryExample" */ = {
+		B81013571C21FFE8003238EB /* Build configuration list for PBXNativeTarget "Survivor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B81013581C21FFE8003238EB /* Debug */,
@@ -514,7 +514,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B810135A1C21FFE8003238EB /* Build configuration list for PBXNativeTarget "StoryExampleTests" */ = {
+		B810135A1C21FFE8003238EB /* Build configuration list for PBXNativeTarget "SurvivorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B810135B1C21FFE8003238EB /* Debug */,
@@ -523,7 +523,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B810135D1C21FFE8003238EB /* Build configuration list for PBXNativeTarget "StoryExampleUITests" */ = {
+		B810135D1C21FFE8003238EB /* Build configuration list for PBXNativeTarget "SurvivorUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B810135E1C21FFE8003238EB /* Debug */,

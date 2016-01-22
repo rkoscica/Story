@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B810132E1C21FFE8003238EB"
-               BuildableName = "StoryExample.app"
-               BlueprintName = "StoryExample"
-               ReferencedContainer = "container:StoryExample.xcodeproj">
+               BuildableName = "Survivor.app"
+               BlueprintName = "Survivor"
+               ReferencedContainer = "container:Survivor.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B81013421C21FFE8003238EB"
-               BuildableName = "StoryExampleTests.xctest"
-               BlueprintName = "StoryExampleTests"
-               ReferencedContainer = "container:StoryExample.xcodeproj">
+               BuildableName = "Survivor.xctest"
+               BlueprintName = "SurvivorTests"
+               ReferencedContainer = "container:Survivor.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B810134D1C21FFE8003238EB"
-               BuildableName = "StoryExampleUITests.xctest"
-               BlueprintName = "StoryExampleUITests"
-               ReferencedContainer = "container:StoryExample.xcodeproj">
+               BuildableName = "Survivor.xctest"
+               BlueprintName = "SurvivorUITests"
+               ReferencedContainer = "container:Survivor.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B810132E1C21FFE8003238EB"
-            BuildableName = "StoryExample.app"
-            BlueprintName = "StoryExample"
-            ReferencedContainer = "container:StoryExample.xcodeproj">
+            BuildableName = "Survivor.app"
+            BlueprintName = "Survivor"
+            ReferencedContainer = "container:Survivor.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B810132E1C21FFE8003238EB"
-            BuildableName = "StoryExample.app"
-            BlueprintName = "StoryExample"
-            ReferencedContainer = "container:StoryExample.xcodeproj">
+            BuildableName = "Survivor.app"
+            BlueprintName = "Survivor"
+            ReferencedContainer = "container:Survivor.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B810132E1C21FFE8003238EB"
-            BuildableName = "StoryExample.app"
-            BlueprintName = "StoryExample"
-            ReferencedContainer = "container:StoryExample.xcodeproj">
+            BuildableName = "Survivor.app"
+            BlueprintName = "Survivor"
+            ReferencedContainer = "container:Survivor.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
